@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    database: MYSQL
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://127.0.0.1:3306/microservice_order
+    username: root
+    password: 120822
+    driver-class-name: com.mysql.jdbc.Driver
+    
+    
+    
+    

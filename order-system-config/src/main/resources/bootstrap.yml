@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config
+  profiles:
+    active: native 
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/ 
+
